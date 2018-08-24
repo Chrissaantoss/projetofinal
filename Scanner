@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Adicionando {
+ 
+  public static void main(String[] args){
+    
+    Scanner scan = new Scanner(System.in);
+    
+    System.out.println("Digite a disciplina cursada e nota obtida:");
+    String disciplina = scan.next();
+    double nota = scan.nextDouble();
+    
+    System.out.println("Resultado:");
+    System.out.println("Disciplina:" + disciplina);
+    System.out.println("Nota obtida:" + nota);
+    
+
+  }
+}
